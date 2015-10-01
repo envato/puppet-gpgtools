@@ -5,7 +5,7 @@
 #   include gpgtools
 class gpgtools {
   package { 'gpgtools':
-    source   => 'https://releases.gpgtools.org/GPG%20Suite%20-%202013.10.22.dmg',
+    source   => 'https://releases.gpgtools.org/GPG_Suite-2015.09.dmg',
     provider => 'pkgdmg'
   }
 }
